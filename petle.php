@@ -8,22 +8,28 @@
 <body>
 
 <?php
-    // for($i=0;$i<10;$i++){
-    //     echo "<p>$i</p>";
-    // }
+    for($i=0;$i<10;$i++){
+        echo "<p>$i</p>";
+    }
 
  
-// $i=0;
-// while($i<10){
-//     echo "<p>$i</p>";
-//     $i++;   // altrernatywny zapis $i=$i+1   lub $i+=1;
-// }
+$i=0;
+while($i<10){
+    echo "<p>$i</p>";
+    $i++;   // altrernatywny zapis $i=$i+1   lub $i+=1;
+}
 
 $i = 0;
 do{
     echo "<p>$i</p>";
     $i++;     
     }while($i<10);
+
+$tablica = array(12,2323,33,43,635,78,18,9);
+
+    foreach($tablica as $klucz){
+        echo "<p>$klucz</p>";
+    }
 
 
 
