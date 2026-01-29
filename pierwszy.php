@@ -119,6 +119,12 @@ echo "<br><br>";
                 break;
             }
 
+            $i=0;
+echo "<H1> PĘTLA WHILE </H1>";
+while($i<=10){
+    echo "<p>$i</p>";
+    $i++;   // altrernatywny zapis $i=$i+1   lub $i+=1;
+}
 
 
 
