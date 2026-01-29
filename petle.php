@@ -27,11 +27,13 @@ do{
 
 $tablica = array(12,2323,33,43,635,78,18,9);
 
-    foreach($tablica as $klucz){
-        echo "<p>$klucz</p>";
+    foreach($tablica as $wartosc){
+        echo "<p>$wartosc</p>";
     }
 
-
+    foreach($tablica as $index => $wartosc){
+        echo "<p>Indeks tablicy: $index a przechowywana wartość: $wartosc</p>";
+    }
 
 ?>
     
