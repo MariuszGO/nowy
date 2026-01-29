@@ -12,15 +12,21 @@
     //     echo "<p>$i</p>";
     // }
 
-    $i = 0;
-echo "<H1> PĘTLA DO WHILE </H1>";
+ 
+// $i=0;
+// while($i<10){
+//     echo "<p>$i</p>";
+//     $i++;   // altrernatywny zapis $i=$i+1   lub $i+=1;
+// }
+
+$i = 0;
 do{
     echo "<p>$i</p>";
     $i++;     
-    }while($i<=10);
+    }while($i<10);
 
 
-    
+
 ?>
     
 </body>
