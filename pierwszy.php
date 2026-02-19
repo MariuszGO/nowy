@@ -1,15 +1,15 @@
 ﻿<?php
 
-echo "Witaj Ĺ›wiecie ";
+echo "Witaj świecie ";
 
-$liczba = 11; //zmienna caĹ‚kowita integer
-$zmienna = "Gorlice"; //zmienna Ĺ‚aĹ„cuchowa String
-$zmienna1 = 3.44; //zmienna zmiennoprzcinkowa
+$liczba = 11; //zmienna całkowita integer
+$zmienna = "Gorlice"; //zmienna łańcuchowa String
+$zmienna1 = 3.44; //zmienna zmiennoprzecinkowa
 $logicza = true; //zmienna logiczna
 
 $tablica[0] = "Adam";
 $tablica[1] = "Krzysztof";
-$tablica[2] = "PaweĹ‚";
+$tablica[2] = "Paweł";
 
 echo $tablica[1];
 
@@ -20,7 +20,7 @@ $wynik = $liczba_a / $liczba_b;
 
 // +, -,  * , /
 
-echo " Suma liczb $liczba_a i $liczba_b jest rĂłwna $wynik";
+echo " Suma liczb $liczba_a i $liczba_b jest równa $wynik";
 
 // && - i logiczne
 // || - lub logiczne
@@ -29,9 +29,9 @@ $zmienna3 = true;
 $zmienna4 = true;
 
 if ($zmienna3 && $zmienna4) {
-    echo "Jedno i durugie jest prawda";
+    echo "Jedno i drugie jest prawda";
 } else {
-    echo "jedno i durugie sÄ… nieprawda lub jedno z nich jest nie prawda";
+    echo "jedno i drugie są nieprawda lub jedno z nich jest nie prawda";
 }
 
 $zmienna5 = 70;
@@ -39,18 +39,18 @@ $zmienna5 = 70;
 echo "<br><br>";
 
 if ($zmienna5 < 50) {
-    echo "Wartosc $zmienna5 jest mniejsza od 50";
+    echo "Wartość $zmienna5 jest mniejsza od 50";
 }
 
 $zmienna6 = 11;
 
 if ($zmienna6 < 50) {
-    echo "wartosc $zmienna6 jest mniejsza od 50";
+    echo "wartość $zmienna6 jest mniejsza od 50";
     echo "!!!";
 } elseif ($zmienna6 > 50) {
-    echo "wartosc $zmienna6 jest wiÄ™ksza od 50";
+    echo "wartość $zmienna6 jest większa od 50";
 } else {
-    echo "Wartosc zmienej jest rĂłwna 50";
+    echo "Wartość zmiennej jest równa 50";
 }
 
 
@@ -82,23 +82,23 @@ echo "<br><br>";
 $dzien_tygodnia = 3;
 switch ($dzien_tygodnia) {
     case 1:
-        echo "<p>Dzisiaj jest poniedziaĹ‚ek.</p>";
-        echo "<p>To poczÄ…tek tygodnia.</p>";
-        echo "<p>MiĹ‚ego dnia!</p>";
-        echo "KaĹĽdy lubi poniedziaĹ‚ki!";
+        echo "<p>Dzisiaj jest poniedziałek.</p>";
+        echo "<p>To początek tygodnia.</p>";
+        echo "<p>Miłego dnia!</p>";
+        echo "Każdy lubi poniedziałki!";
         echo "<hr>";
         break;
     case 2:
         echo "<p>Dzisiaj jest wtorek.</p>";
         break;
     case 3:
-        echo "<p>Dzisiaj jest Ĺ›roda.</p>";
+        echo "<p>Dzisiaj jest środa.</p>";
         break;
     case 4:
         echo "<p>Dzisiaj jest czwartek.</p>";
         break;
     case 5:
-        echo "<p>Dzisiaj jest piÄ…tek.</p>";
+        echo "<p>Dzisiaj jest piątek.</p>";
         break;
     case 6:
         echo "<p>Dzisiaj jest sobota.</p>";
@@ -107,7 +107,7 @@ switch ($dzien_tygodnia) {
         echo "<p>Dzisiaj jest niedziela.</p>";
         break;
     default:
-        echo "<p>PodaĹ‚eĹ› wartoĹ›Ä‡ spoza zakresu.</p>";
+        echo "<p>Podałeś wartość spoza zakresu.</p>";
         break;
 }
 
