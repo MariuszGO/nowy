@@ -22,6 +22,23 @@
         echo "<br><br>Zamiana na duże litery strtoupper() lub z polskimi znakami mb_strtoupper(): $duze";
         echo "<br><br>Zamiana na duże litery strtolower() : $male";
     
+
+ 
+    
+      }
+    else
+        {
+        echo"<form method='post'>
+        <label for='imie'>Imie: </label>
+        <input type='text' id='imie' name='imie'><br>
+        <label for='w'>Wiek: </label>
+        <input type='number id='w' name='wiek' min='1'><br>
+        <button>Prześlij</button></form>";
+        
+    
+        }
+
+
 //         | Funkcja             | Opis                                |
 // | ------------------- | ----------------------------------- |
 // | `strtoupper()`      | Zmiana na WIELKIE LITERY (ASCII)    |
@@ -73,24 +90,10 @@
 // preg_match()
 
 
-
-
-    
-    
-      }
-    else
-        {
-        echo"<form method='post'>
-        <label for='imie'>Imie: </label>
-        <input type='text' id='imie' name='imie'><br>
-        <label for='w'>Wiek: </label>
-        <input type='number id='w' name='wiek' min='1'><br>
-        <button>Prześlij</button></form>";
-        
-    
-        }
-    ?>
+?>
 
     
 </body>
 </html>
+
+
