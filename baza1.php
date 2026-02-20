@@ -24,7 +24,7 @@
 
 
 
-
+//koniec pracy rozłączenie się z bazą
     mysqli_close($polaczenie);
 ?>
     
