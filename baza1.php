@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styl.css">
     <title>Baza</title>
 </head>
 <body>
@@ -17,11 +18,12 @@
     //połączenie już jest id połączenia to : $polaczenie
     $zapytanie1 = "SELECT * FROM uczniowie";
     $rezultat1 = mysqli_query($polaczenie,$zapytanie1);
-
+    echo "<table>";
     while($tablica = mysqli_fetch_array($rezultat1)){
-        echo $tablica['imie'] . " " . $tablica['nazwisko'] . " " . $tablica['wiek'] . " <br>";
+        echo "<tr><td>". $tablica['imie'] . "</td><td>" . $tablica['nazwisko'] . "</td><td>" . $tablica['wiek'] . "</td></tr>";
     }
 
+    echo "</table>";
 
 
 //koniec pracy rozłączenie się z bazą
