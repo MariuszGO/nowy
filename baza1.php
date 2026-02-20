@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baza</title>
+</head>
+<body>
+
+<?php
+//Pierwsza najprostsza wersja
+    $polaczenie = mysqli_connect("localhost","root","","szkola");
+    $zapytanie ="INSERT into uczniowie values (NULL, 'Jan', 'Kowalski', 20)";
+    $rezultat = mysqli_query($polaczenie,$zapytanie);
+   
+?>
+    
+</body>
+</html>
